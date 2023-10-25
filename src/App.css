@@ -1,0 +1,61 @@
+body {
+  background-color: #fed5dc;
+  font-family: 'Montserrat', sans-serif;
+  color: #69425c;
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.secondMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  margin: 5px;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+.btnDelete {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.btnCarousel {
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.btnRemove {
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+.change:hover {
+  background-color: rgb(245, 107, 107);
+  border-radius: 10px;
+  color: white;
+}
+span {
+  background-color:rgb(245, 107, 107, 0.9);
+  padding: 10px;
+  border-radius: 40px;
+  color: white;
+}
