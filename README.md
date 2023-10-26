@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Project "Random Mixed Charm"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application that provides users with a delightful experience of exploring a diverse collection of beads. Users can browse and interact with various beads, including removing items, switching between collections, and more.
+(https://fuzzi-cat.netlify.app).
 
-## Available Scripts
 
-In the project directory, you can run:
+
+## Functionality
+
+• Random Bead Display: The main page of the application displays random 
+  beads from a collection. Each bead is accompanied by a description, 
+  price, and an image.
+
+• Item Removal: Users can remove items from their collection by 
+  clicking the "Remove" button next to the bead. The removed item is 
+  instantly taken out of the list.
+
+• Delete All: For convenience, there is a "Delete All" button at the 
+  bottom of the page, allowing users to clear the entire collection 
+  with one click.
+
+• New Collection: A slider labeled "New Product" enables users to 
+  navigate through a new collection of beads. The slider displays 
+  images, descriptions, and prices of beads from the new collection.
+
+• Navigation Controls: Users can navigate through the new collection 
+  using the "Previous" and "Next" buttons on the slider.
+
+• Data Customization: Data for the beads is sourced from two initial 
+  files, data.js and dataTwo.js. You can easily edit or add new items 
+  to these files to update the products displayed in the application.
+
+
+
+## Installation
+
+To run this project on your local machine, follow these steps:
+
+1. Clone the repository:
+### `git clone <repository URL>`
+
+2. Navigate to the project directory:
+### `cd your-directory`
+
+3. Install project dependencies using npm (Node Package Manager) or yarn (if you prefer yarn):
+### `npm install`
+
+
+
+## Running
+
+To start the application, execute the following command:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application will be accessible in your web browser at (http://localhost:3000)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Styling
 
-### `npm run build`
+The project's visual styling is controlled through the App.css file. You can customize the application's appearance by modifying the CSS rules within this file.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Dependencies
 
-### `npm run eject`
+This project is built using the React library, which allows for creating interactive user interfaces. You can find the project's dependencies listed in the package.json file.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Svetlana Surikova
+(svetulenka21@gmail.com)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to add more sections or information as needed for your specific project. This comprehensive README provides users with a clear understanding of your application, how to run it, and where the data comes from.
