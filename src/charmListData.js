@@ -1,4 +1,4 @@
-export const data = [
+export const charmListData = [
     {
         id: 1,
         description: "Hand-painted bead",

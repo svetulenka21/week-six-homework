@@ -1,4 +1,4 @@
-export const dataTwo = [
+export const carouselData = [
     {
         idTwo: 1,
         descriptionTwo: "Miffy Luminous Charm",
