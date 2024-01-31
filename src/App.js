@@ -1,13 +1,13 @@
-// App.js
+import './App.css';
 import React, { useState } from 'react';
-import { wishListDatadata } from './wishListData';
+import { charmListData } from './charmListData';
 import Carousel from './Carousel';
 import CharmList from './CharmList';
 import DeleteAllButton from './DeleteAllButton';
 import TitleContainer from './TitleContainer';
 
 function App() {
-  const [mixedCharm, setMixedCharm] = useState(wishListDatadata);
+  const [mixedCharm, setMixedCharm] = useState(charmListData);
 
   const removeItem = (id) => {
     let newMixedCharm = mixedCharm.filter((charm) => charm.id !== id);
