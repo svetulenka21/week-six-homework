@@ -1,11 +1,13 @@
-import './App.css';
+// App.js
 import React, { useState } from 'react';
-import { charmListData } from './charmListData';
+import { wishListDatadata } from './wishListData';
 import Carousel from './Carousel';
 import CharmList from './CharmList';
+import DeleteAllButton from './DeleteAllButton';
+import TitleContainer from './TitleContainer';
 
 function App() {
-  const [mixedCharm, setMixedCharm] = useState(charmListData);
+  const [mixedCharm, setMixedCharm] = useState(wishListDatadata);
 
   const removeItem = (id) => {
     let newMixedCharm = mixedCharm.filter((charm) => charm.id !== id);
@@ -14,23 +16,13 @@ function App() {
 
   return (
     <div>
-      <div className='titleContainer'>
-        <h1>
-          <span>{mixedCharm.length}</span> Random Mixed Charm
-        </h1>
-      </div>
+      <TitleContainer count={mixedCharm.length} title="Random Mixed Charm" />
 
       <CharmList mixedCharm={mixedCharm} removeItem={removeItem} />
 
-      <div className='btnContainer'>
-        <button className='btnDelete change' onClick={() => setMixedCharm([])}>
-          Delete All
-        </button>
-      </div>
+      <DeleteAllButton setMixedCharm={setMixedCharm} />
 
-      <div className='titleContainer'>
-        <h2>New Product. Luminous Charm</h2>
-      </div>
+      <TitleContainer count={mixedCharm.length} title="New Product. Luminous Charm" />
 
       <Carousel />
     </div>
